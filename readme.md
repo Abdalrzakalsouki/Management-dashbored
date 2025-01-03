@@ -8,8 +8,8 @@ This project is a full-fledged RESTful API that allows users to manage their tas
 - Set up basic routes for task management (CRUD operations) for tasks like:
   - `GET /tasks`
   - `POST /tasks`
-  - `PUT /tasks/:id`
-  - `DELETE /tasks/:id`
+  - `PUT /task/:id`
+  - `DELETE /task/:id`
 - Implement a task model using a **MongoDB** database (using **Mongoose**), where tasks have properties like:
   - `title`
   - `description`
